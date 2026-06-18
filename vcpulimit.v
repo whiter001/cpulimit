@@ -289,13 +289,16 @@ fn run_command_mode(command_start int, limit f64, include_children bool, verbose
 	if verbose {
 		println("Running command: '${cmd_args.join(' ')}'")
 	}
+	_ = cmd_args
 
 	cpid := os.fork()
 	if cpid < 0 {
 		exit(1)
 	}
 	if cpid == 0 {
-		os.execvp(cmd, cmd_args) or { eprintln('execvp failed: ${err}') }
+		// V 的 os.execvp 会把 cmdpath 自动加到 argv[0],所以 args 不能再传 cmdpath 自身,
+		// 只传剩余参数(从 os.args[command_start+1..])。
+		os.execvp(cmd, os.args[(command_start + 1)..]) or { eprintln('execvp failed: ${err}') }
 		exit(127)
 	}
 	limiter := os.fork()
