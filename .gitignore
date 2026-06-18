@@ -1,0 +1,6 @@
+.DS_Store
+._*
+*.exe
+vcpulimit
+cpulimit
+cmd/vcpulimit/vcpulimit
