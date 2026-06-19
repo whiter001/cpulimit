@@ -4,3 +4,5 @@
 vcpulimit
 cpulimit
 cmd/vcpulimit/vcpulimit
+.playwright-mcp/
+github_run_snapshot.md
