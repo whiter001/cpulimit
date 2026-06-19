@@ -1,0 +1,291 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner "Global Navigation Menu" [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - button "Open menu" [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+          - link "Homepage (g then d)" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img [ref=e16]
+        - generic [ref=e18]:
+          - navigation "Breadcrumbs" [ref=e19]:
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "whiter001" [ref=e22] [cursor=pointer]:
+                  - /url: /whiter001
+                  - generic [ref=e23]: whiter001
+              - listitem [ref=e24]:
+                - link "cpulimit" [ref=e25] [cursor=pointer]:
+                  - /url: /whiter001/cpulimit
+                - button "Switch repository (option shift r)" [ref=e26] [cursor=pointer]:
+                  - img [ref=e27]
+          - button "Search or jump to…" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]:
+              - generic:
+                - img
+              - generic [ref=e33]:
+                - generic:
+                  - text: Type
+                  - generic: /
+                  - text: to search
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e38]:
+              - link "Chat with Copilot" [ref=e40] [cursor=pointer]:
+                - /url: /copilot
+                - img [ref=e41]
+              - button "Open Copilot…" [ref=e45] [cursor=pointer]:
+                - generic:
+                  - img
+            - button "Create new..." [ref=e47] [cursor=pointer]:
+              - generic [ref=e48]:
+                - generic:
+                  - img
+              - generic:
+                - img
+            - generic [ref=e49]:
+              - link "All issues" [ref=e50] [cursor=pointer]:
+                - /url: /issues
+                - img [ref=e51]
+              - link "All pull requests" [ref=e54] [cursor=pointer]:
+                - /url: /pulls
+                - img [ref=e55]
+              - link "All repositories" [ref=e57] [cursor=pointer]:
+                - /url: /repos
+                - img [ref=e58]
+          - link "You have no unread notifications (g then n)" [ref=e60] [cursor=pointer]:
+            - /url: /notifications
+            - img [ref=e61]
+          - button "Open user navigation menu" [ref=e64] [cursor=pointer]:
+            - img "whi" [ref=e65]
+      - heading "Repository navigation" [level=2] [ref=e66]
+      - navigation "Repository" [ref=e67]:
+        - list [ref=e68]:
+          - listitem [ref=e69]:
+            - link "Code" [ref=e70] [cursor=pointer]:
+              - /url: /whiter001/cpulimit
+              - img [ref=e72]
+              - generic [ref=e74]: Code
+          - listitem [ref=e75]:
+            - link "Issues" [ref=e76] [cursor=pointer]:
+              - /url: /whiter001/cpulimit/issues
+              - img [ref=e78]
+              - generic [ref=e81]: Issues
+          - listitem [ref=e82]:
+            - link "Pull requests" [ref=e83] [cursor=pointer]:
+              - /url: /whiter001/cpulimit/pulls
+              - img [ref=e85]
+              - generic [ref=e87]: Pull requests
+          - listitem [ref=e88]:
+            - link "Actions" [ref=e89] [cursor=pointer]:
+              - /url: /whiter001/cpulimit/actions
+              - img [ref=e91]
+              - generic [ref=e93]: Actions
+          - listitem [ref=e94]:
+            - link "Projects" [ref=e95] [cursor=pointer]:
+              - /url: /whiter001/cpulimit/projects
+              - img [ref=e97]
+              - generic [ref=e99]: Projects
+          - listitem [ref=e100]:
+            - link "Wiki" [ref=e101] [cursor=pointer]:
+              - /url: /whiter001/cpulimit/wiki
+              - img [ref=e103]
+              - generic [ref=e105]: Wiki
+          - listitem [ref=e106]:
+            - link "Security and quality" [ref=e107] [cursor=pointer]:
+              - /url: /whiter001/cpulimit/security
+              - img [ref=e109]
+              - generic [ref=e111]: Security and quality
+          - listitem [ref=e112]:
+            - link "Insights" [ref=e113] [cursor=pointer]:
+              - /url: /whiter001/cpulimit/pulse
+              - img [ref=e115]
+              - generic [ref=e117]: Insights
+          - listitem [ref=e118]:
+            - link "Settings" [ref=e119] [cursor=pointer]:
+              - /url: /whiter001/cpulimit/settings
+              - img [ref=e121]
+              - generic [ref=e123]: Settings
+  - main [ref=e127]:
+    - generic [ref=e133]:
+      - generic [ref=e136]:
+        - link "Release" [ref=e139] [cursor=pointer]:
+          - /url: /whiter001/cpulimit/actions/workflows/release.yml
+          - img [ref=e140]
+          - generic [ref=e142]: Release
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - img "queued:" [ref=e148]
+            - 'heading "Release #1" [level=1] [ref=e150]':
+              - generic [ref=e151]: "Release #1"
+          - generic [ref=e153]:
+            - button "Cancel workflow" [ref=e155] [cursor=pointer]
+            - button "Workflow run options" [ref=e159] [cursor=pointer]:
+              - img
+      - generic [ref=e160]:
+        - navigation "Workflow run" [ref=e166]:
+          - list [ref=e167]:
+            - listitem [ref=e168]:
+              - link "Summary" [ref=e330] [cursor=pointer]:
+                - /url: /whiter001/cpulimit/actions/runs/27853799676
+                - generic:
+                  - img
+                - generic [ref=e332]: Summary
+            - generic [ref=e172]:
+              - heading "All jobs" [level=4] [ref=e173]
+              - button "Filter by job status" [ref=e174] [cursor=pointer]:
+                - img [ref=e175]
+            - listitem [ref=e177]
+            - listitem [ref=e178]:
+              - list [ref=e179]:
+                - listitem [ref=e333]:
+                  - link "Build (linux-x86_64)" [ref=e334] [cursor=pointer]:
+                    - /url: /whiter001/cpulimit/actions/runs/27853799676/job/82437467258
+                    - generic:
+                      - img
+                    - generic [ref=e336]: Build (linux-x86_64)
+                - listitem [ref=e337]:
+                  - link "Build (darwin-arm64)" [ref=e338] [cursor=pointer]:
+                    - /url: /whiter001/cpulimit/actions/runs/27853799676/job/82437467266
+                    - generic:
+                      - img
+                    - generic [ref=e340]: Build (darwin-arm64)
+                - listitem [ref=e341]:
+                  - link "Build (darwin-x86_64)" [ref=e342] [cursor=pointer]:
+                    - /url: /whiter001/cpulimit/actions/runs/27853799676/job/82437467250
+                    - generic:
+                      - img
+                    - generic [ref=e344]: Build (darwin-x86_64)
+            - listitem [ref=e190]
+            - listitem [ref=e191]:
+              - heading "Run details" [level=3] [ref=e193]
+              - list "Run details" [ref=e194]:
+                - listitem [ref=e195]:
+                  - link "Usage" [ref=e345] [cursor=pointer]:
+                    - /url: /whiter001/cpulimit/actions/runs/27853799676/usage
+                    - generic:
+                      - img
+                    - generic [ref=e347]: Usage
+                - listitem [ref=e199]:
+                  - link "Workflow file" [ref=e348] [cursor=pointer]:
+                    - /url: /whiter001/cpulimit/actions/runs/27853799676/workflow
+                    - generic:
+                      - img
+                    - generic [ref=e350]: Workflow file
+        - region "Check run summary" [ref=e204]:
+          - generic [ref=e205]:
+            - region "Annotations" [ref=e207]:
+              - generic [ref=e211]:
+                - button "Open job annotations" [ref=e213] [cursor=pointer]:
+                  - img [ref=e216]
+                - generic [ref=e218]:
+                  - heading "Annotations" [level=2] [ref=e219]
+                  - generic [ref=e220]: 1 error and 2 warnings
+            - generic [ref=e222]:
+              - generic [ref=e223]:
+                - generic [ref=e224]:
+                  - link "Build (darwin-arm64)" [ref=e227] [cursor=pointer]:
+                    - /url: "#logs"
+                    - generic [ref=e228]: Build (darwin-arm64)
+                  - generic [ref=e229]: failed Jun 20, 20261 minute ago in 38s
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - img [ref=e232]
+                    - textbox "Search" [ref=e234]:
+                      - /placeholder: Search logs
+                  - group [ref=e236]:
+                    - button "Show options" [ref=e237] [cursor=pointer]:
+                      - img "Show options" [ref=e238]
+              - generic [ref=e241]:
+                - group [ref=e243]:
+                  - generic "Set up job 1s" [ref=e351] [cursor=pointer]:
+                    - generic [ref=e245]:
+                      - img [ref=e246]
+                      - img [ref=e352]
+                      - generic [ref=e251]: Set up job
+                      - generic [ref=e354]: 1s
+                - group [ref=e253]:
+                  - generic "Checkout 1s" [ref=e355] [cursor=pointer]:
+                    - generic [ref=e255]:
+                      - img [ref=e256]
+                      - img [ref=e356]
+                      - generic [ref=e261]: Checkout
+                      - generic [ref=e358]: 1s
+                - group [ref=e263]:
+                  - generic "Setup V 27s" [ref=e359] [cursor=pointer]:
+                    - generic [ref=e265]:
+                      - img [ref=e266]
+                      - img [ref=e360]
+                      - generic [ref=e271]: Setup V
+                      - generic [ref=e362]: 27s
+                - generic [ref=e272]:
+                  - group:
+                    - generic "Install libgc (Linux) 0s":
+                      - generic:
+                        - img
+                        - generic:
+                          - generic: Install libgc (Linux)
+                        - generic: 0s
+                - group [ref=e274]:
+                  - generic "Install libgc (macOS) 4s" [ref=e363] [cursor=pointer]:
+                    - generic [ref=e276]:
+                      - img [ref=e277]
+                      - img [ref=e364]
+                      - generic [ref=e282]: Install libgc (macOS)
+                      - generic [ref=e366]: 4s
+                - group [ref=e284]:
+                  - generic "Build release binary 0s" [ref=e367] [cursor=pointer]:
+                    - generic [ref=e286]:
+                      - img [ref=e368]
+                      - img [ref=e370]
+                      - generic [ref=e294]: Build release binary
+                      - generic [ref=e372]: 0s
+                  - generic [ref=e374]:
+                    - generic [ref=e376]:
+                      - link "1" [ref=e377] [cursor=pointer]:
+                        - /url: https://github.com/whiter001/cpulimit/actions/runs/27853799676/job/82437467266#step:6:1
+                      - group [ref=e379]:
+                        - generic "Run ./build.sh -o \"vcpulimit-darwin-arm64\"" [ref=e380] [cursor=pointer]:
+                          - generic [ref=e381]: Run ./build.sh -o "vcpulimit-darwin-arm64"
+                    - generic [ref=e383]:
+                      - link "6" [ref=e384] [cursor=pointer]:
+                        - /url: https://github.com/whiter001/cpulimit/actions/runs/27853799676/job/82437467266#step:6:7
+                      - generic [ref=e386]: "/Users/runner/work/_temp/ee8763f2-3bb0-4e75-bbc6-1411afacb9b0.sh: line 1: ./build.sh: Permission denied"
+                    - generic [ref=e388]:
+                      - link "7" [ref=e389] [cursor=pointer]:
+                        - /url: https://github.com/whiter001/cpulimit/actions/runs/27853799676/job/82437467266#step:6:8
+                      - generic [ref=e390]:
+                        - text: "Error:"
+                        - generic [ref=e391]: Process completed with exit code 1.
+                - generic [ref=e297]:
+                  - group:
+                    - generic "Upload artifact 0s":
+                      - generic:
+                        - img
+                        - generic:
+                          - generic: Upload artifact
+                        - generic: 0s
+                - group [ref=e299]:
+                  - generic "Post Setup V 0s" [ref=e392] [cursor=pointer]:
+                    - generic [ref=e301]:
+                      - img [ref=e302]
+                      - img [ref=e393]
+                      - generic [ref=e307]: Post Setup V
+                      - generic [ref=e395]: 0s
+                - group [ref=e309]:
+                  - generic "Post Checkout 1s" [ref=e396] [cursor=pointer]:
+                    - generic [ref=e311]:
+                      - img [ref=e312]
+                      - img [ref=e397]
+                      - generic [ref=e317]: Post Checkout
+                      - generic [ref=e399]: 1s
+                - group [ref=e319]:
+                  - generic "Complete job 0s" [ref=e400] [cursor=pointer]:
+                    - generic [ref=e321]:
+                      - img [ref=e322]
+                      - img [ref=e401]
+                      - generic [ref=e327]: Complete job
+                      - generic [ref=e403]: 0s

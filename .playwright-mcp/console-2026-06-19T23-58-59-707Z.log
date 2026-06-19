@@ -1,0 +1,22 @@
+[    1992ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    1994ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    1994ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2028ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2032ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2035ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2036ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2036ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://api.github.com/_private/browser/stats:0
+[    2037ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2203ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2231ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2232ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2306ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/github-copilot/chat/entitlement:0
+[    2529ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2642ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2642ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    2694ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    3057ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/github-copilot/chat/entitlement:0
+[    5992ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    5994ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[    7033ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://collector.github.com/github/collect:0
+[   10993ms] [ERROR] Failed to load resource: net::ERR_BLOCKED_BY_CLIENT @ https://api.github.com/_private/browser/stats:0
