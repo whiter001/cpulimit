@@ -24,6 +24,12 @@ LDFLAGS="-L/opt/homebrew/Cellar/bdw-gc/8.2.12/lib" \
 The `-enable-globals` flag is needed because the C signal handler writes to a global
 flag that the main loop polls.
 
+## Releases
+
+Binaries for Linux (x86_64) and macOS (arm64 / x86_64) are published manually via the
+**Release** GitHub Actions workflow. Go to *Actions → Release → Run workflow*, enter a
+version tag (e.g. `v0.1.0`), and choose whether to create a draft or prerelease.
+
 ## Usage
 
 ```
