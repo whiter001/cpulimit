@@ -28,8 +28,6 @@ jobs:
         include:
           - os: macos-latest
             target: darwin-arm64
-          - os: macos-13
-            target: darwin-x86_64
 
     steps:
       - name: Checkout
@@ -40,12 +38,7 @@ jobs:
         with:
           stable: true
 
-      - name: Install libgc (Linux)
-        if: runner.os == 'Linux'
-        run: sudo apt-get update && sudo apt-get install -y libgc-dev
-
-      - name: Install libgc (macOS)
-        if: runner.os == 'macOS'
+      - name: Install libgc
         run: brew install bdw-gc
 
       - name: Build release binary

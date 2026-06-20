@@ -26,10 +26,10 @@ flag that the main loop polls.
 
 ## Releases
 
-Binaries for macOS (arm64 / x86_64) are published manually via the **Release** GitHub
-Actions workflow. Go to *Actions → Release → Run workflow*, enter a version tag (e.g.
-`v0.1.0`), and choose whether to create a draft or prerelease. Linux builds are
-currently skipped.
+macOS arm64 binaries are published manually via the **Release** GitHub Actions
+workflow. Go to *Actions → Release → Run workflow*, enter a version tag (e.g.
+`v0.1.0`), and choose whether to create a draft or prerelease. Linux and x86_64
+macOS builds are currently skipped.
 
 ## Usage
 
