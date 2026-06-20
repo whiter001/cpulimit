@@ -68,7 +68,14 @@ LDFLAGS="$gc_ldflags" v -enable-globals -prod . -o "$output"
 if [ -x "$output" ]; then
     size=$(wc -c <"$output" | tr -d ' ')
     echo "built $output ($size bytes)"
-    "$output" --help >/dev/null && echo "smoke test: --help ok"
+    # If output is a bare filename, run it as ./filename so the shell
+    # doesn't search PATH for it.
+    run_output="$output"
+    case "$output" in
+        */*) ;;
+        *) run_output="./$output" ;;
+    esac
+    "$run_output" --help >/dev/null && echo "smoke test: --help ok"
 else
     echo "build failed: $output not produced" >&2
     exit 1
